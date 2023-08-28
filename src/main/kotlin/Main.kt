@@ -15,6 +15,7 @@ fun main() {
 
     val person = Person("SS", true)
     println("Person name : ${person.name}, isMarried : ${person.isMarried}")
+    println("This Triangle isSquare : ${Triangle(2, 2).isSquare}")
 }
 fun max(a: Int, b: Int): Int {
     return if (a > b) a else b

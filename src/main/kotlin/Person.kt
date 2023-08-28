@@ -10,3 +10,13 @@ class Family (
 class GrandFather (
     val name: String
 )
+
+class Triangle (
+    val height: Int,
+    val weight: Int
+) {
+    val isSquare : Boolean
+        get() {
+            return height == weight
+        }
+}
