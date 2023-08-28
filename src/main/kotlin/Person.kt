@@ -11,7 +11,7 @@ class GrandFather (
     val name: String
 )
 
-class Triangle (
+class Rectangle (
     val height: Int,
     val weight: Int
 ) {
