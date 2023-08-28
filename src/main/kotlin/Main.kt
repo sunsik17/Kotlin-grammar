@@ -12,6 +12,9 @@ fun main() {
     println(max(1, 2))
     println(max2(2, 3))
     println(max3(2, 4))
+
+    val person = Person("SS", true)
+    println("Person name : ${person.name}, isMarried : ${person.isMarried}")
 }
 fun max(a: Int, b: Int): Int {
     return if (a > b) a else b
