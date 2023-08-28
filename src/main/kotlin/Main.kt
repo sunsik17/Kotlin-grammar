@@ -13,9 +13,9 @@ fun main() {
     println(max2(2, 3))
     println(max3(2, 4))
 
-    val person = Person("SS", true)
-    println("Person name : ${person.name}, isMarried : ${person.isMarried}")
-    println("This Triangle isSquare : ${Rectangle(2, 2).isSquare}")
+//    val person = Person("SS", true)
+//    println("Person name : ${person.name}, isMarried : ${person.isMarried}")
+//    println("This Triangle isSquare : ${Rectangle(2, 2).isSquare}")
 }
 fun max(a: Int, b: Int): Int {
     return if (a > b) a else b
