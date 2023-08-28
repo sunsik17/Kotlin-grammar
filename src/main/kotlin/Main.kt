@@ -1,5 +1,7 @@
 fun main() {
     println("Hello World")
+    val value = max(4, 5)
+    println("Max value is : $value")
     println(max(1, 2))
     println(max2(2, 3))
     println(max3(2, 4))
