@@ -1,9 +1,9 @@
 interface Error
 
 class FileError(val fileName: String) : Error
-class DatabaseError(val dbmsType: DbmsTyoe) : Error
+class DatabaseError(val dbmsType: DbmsType) : Error
 
-enum class DbmsTyoe {
+enum class DbmsType {
     MARIADB, MYSQL, ORACLE, H2
 }
 
