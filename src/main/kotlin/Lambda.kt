@@ -27,5 +27,7 @@ fun main() {
     println(persons.maxByOrNull { person0 -> person0.age })
     // 람다의 파라미터 이름을 기본 이름인 it으로 수정하면 가장 간결한 람다식이 완성
     println(persons.maxByOrNull { it.age })
+
+    println(persons.maxByOrNull(Person0::age))
 }
 
