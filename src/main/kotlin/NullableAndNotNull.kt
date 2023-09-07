@@ -13,4 +13,8 @@ fun main() {
     println("짝수 시간에만 존재하는 사람의 나이는 ${nullablePerson0?.age}")
     // !!. 호출을 수행 : 값이 없는 경우 NPE 발생
     println("짝수 시간에만 존재하는 사람의 나이는 ${nullablePerson0!!.age}")
+
+
 }
+
+fun nullableToNotNull(s: String?): String = s ?: "Default string"
