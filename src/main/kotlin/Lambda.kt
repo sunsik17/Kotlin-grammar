@@ -2,7 +2,7 @@ fun sum(x: Int, y: Int) = x + y
 
 val lambdaSum = { x: Int, y: Int -> x + y }
 
-data class Person0(val name: String, val age: Int)
+data class Person0(var name: String, var age: Int)
 
 val persons = listOf(
     Person0("Captain", 44),
