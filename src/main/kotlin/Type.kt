@@ -14,6 +14,12 @@ fun main() {
         Person0("Hulk", 54),
     )
     val name = persons.find { it.age > 55 } ?: fail("50살이 넘는 사람은 없다")
+
+//    val list: List<Int>
+//    val list: List<Int?>
+//    val list: List<Int>?
+//    val list: List<Int?>?
+
 }
 
 fun printSomething(): Unit {
